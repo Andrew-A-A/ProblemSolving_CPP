@@ -5,7 +5,7 @@
 using namespace std;
 int main() {
     Solution sol;
-    vector<int> n{-1,-2,-3,-4,3,2,1};
+    vector<int> n{3,5,1};
     cout<<sol.arraySign(n);
 
     return 0;

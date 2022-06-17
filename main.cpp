@@ -1,8 +1,11 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Count Odd Numbers in an Interval Range.cpp"
+#include "Problems_Sol_Functions/Average Salary Excluding the Minimum and Maximum Salary.cpp"
+
 using namespace std;
 int main() {
     Solution sol;
-    cout << sol.countOdds(3 , 7) << endl;
+    vector<int> salary{4000,3000,1000,2000};
+    cout<<sol.average(salary);
+
     return 0;
 }

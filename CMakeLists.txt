@@ -3,4 +3,4 @@ project(ProblemSolving)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ProblemSolving main.cpp "Problems_Sol_Functions/Count Odd Numbers in an Interval Range.cpp")
+add_executable(ProblemSolving main.cpp "Problems_Sol_Functions/Count Odd Numbers in an Interval Range.cpp" "Problems_Sol_Functions/Average Salary Excluding the Minimum and Maximum Salary.cpp")

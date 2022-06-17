@@ -1,12 +1,12 @@
 #include <iostream>
 #include <vector>
-#include "Problems_Sol_Functions/Find Nearest Point That Has the Same X or Y Coordinate.cpp"
+#include "Problems_Sol_Functions/Sign of the Product of an Array.cpp"
 
 using namespace std;
 int main() {
     Solution sol;
-    vector<vector<int>> n{{1,2},{3,1},{2,4},{2,3},{4,4}};
-    cout<<sol.nearestValidPoint(3,4,n);
+    vector<int> n{-1,-2,-3,-4,3,2,1};
+    cout<<sol.arraySign(n);
 
     return 0;
 }

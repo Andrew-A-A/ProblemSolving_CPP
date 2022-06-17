@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Check if One String Swap Can Make Strings Equal.cpp"
+#include "Problems_Sol_Functions/Check If It Is a Straight Line.cpp"
 
 using namespace std;
 int main() {
     Solution sol;
-    string s1="bank",s2="kanb";
-    cout<<sol.areAlmostEqual(s1,s2);
+    vector<vector<int>> n={{0,0},{0,1},{0,-1}};
+    cout<<sol.checkStraightLine(n);
 
     return 0;
 }

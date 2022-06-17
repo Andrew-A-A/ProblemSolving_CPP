@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Average Salary Excluding the Minimum and Maximum Salary.cpp"
+#include "Problems_Sol_Functions/Number of 1 Bits.cpp"
 
 using namespace std;
 int main() {
     Solution sol;
-    vector<int> salary{4000,3000,1000,2000};
-    cout<<sol.average(salary);
+    uint32_t n= 00000000000000000000000000001011;
+    cout<<sol.hammingWeight(n);
 
     return 0;
 }

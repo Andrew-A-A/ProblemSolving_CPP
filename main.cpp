@@ -1,12 +1,10 @@
 #include <iostream>
-#include <vector>
-#include "Problems_Sol_Functions/Sign of the Product of an Array.cpp"
+#include "Problems_Sol_Functions/Happy Number.cpp"
 
 using namespace std;
 int main() {
     Solution sol;
-    vector<int> n{3,5,1};
-    cout<<sol.arraySign(n);
+    cout<<sol.isHappy(19);
 
     return 0;
 }

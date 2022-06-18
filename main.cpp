@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Single Number.cpp"
+#include "Problems_Sol_Functions/Number of Steps to Reduce a Number to Zero.cpp"
 
 using namespace std;
 
@@ -7,9 +7,9 @@ using namespace std;
 
 int main() {
     Solution sol;
-    vector<int> n {2,2,1};
 
-   cout<<sol.singleNumber(n);
+
+   cout<<sol.numberOfSteps(8);
 
     return 0;
 }

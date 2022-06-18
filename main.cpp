@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Fizz Buzz.cpp"
+#include "Problems_Sol_Functions/Roman to Integer.cpp"
 
 using namespace std;
 
@@ -9,7 +9,7 @@ int main() {
     Solution sol;
 
 
-   sol.fizzBuzz(3);
+   cout<<sol.romanToInt("III");
 
     return 0;
 }

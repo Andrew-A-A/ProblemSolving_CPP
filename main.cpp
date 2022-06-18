@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Next Greater Element I.cpp"
+#include "Problems_Sol_Functions/Richest Customer Wealth.cpp"
 
 using namespace std;
 
@@ -7,11 +7,9 @@ using namespace std;
 
 int main() {
     Solution sol;
-    vector<int> n1={4,1,2},n2={1,3,4,2};
+    vector<vector<int>> n {{1,2,3},{3,2,1}};
 
-    vector<int>ans =sol.nextGreaterElement(n1,n2);
-    for (int i = 0; i < ans.size(); ++i) {
-        cout<<ans[i]<<endl;
-    }
+   cout<<sol.maximumWealth(n);
+
     return 0;
 }

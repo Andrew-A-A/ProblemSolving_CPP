@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Richest Customer Wealth.cpp"
+#include "Problems_Sol_Functions/Single Number.cpp"
 
 using namespace std;
 
@@ -7,9 +7,9 @@ using namespace std;
 
 int main() {
     Solution sol;
-    vector<vector<int>> n {{1,2,3},{3,2,1}};
+    vector<int> n {2,2,1};
 
-   cout<<sol.maximumWealth(n);
+   cout<<sol.singleNumber(n);
 
     return 0;
 }

@@ -1,13 +1,10 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Reshape the Matrix .cpp"
-#include <vector>
+#include "Problems_Sol_Functions/Goal Parser Interpretation.cpp"
+
 
 int main() {
     Solution sol;
-        std::vector<std::vector<int>> n
-    {{1,2},{3,4}};
-
-   sol.matrixReshape(n,1,4);
+        std::cout<<sol.interpret("G()(al)");
 
     return 0;
 }

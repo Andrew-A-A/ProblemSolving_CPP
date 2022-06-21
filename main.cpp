@@ -1,10 +1,10 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Find the Difference.cpp"
+#include "Problems_Sol_Functions/To Lower Case.cpp"
 
 int main() {
     Solution sol;
-    std::string s1="abcd",s2="abcde";
-        std::cout<<sol.findTheDifference(s1,s2);
+
+        std::cout<<sol.toLowerCase("A");
 
     return 0;
 }

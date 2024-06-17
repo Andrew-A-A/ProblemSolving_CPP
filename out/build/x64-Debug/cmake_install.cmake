@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/andro/source/repos/Andrew-A-A/ProblemSolving
+# Install script for directory: C:/Users/andro/source/repos/Andrew-A-A/ProblemSolving_CPP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/andro/Source/Repos/Andrew-A-A/ProblemSolving/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/andro/Source/Repos/Andrew-A-A/ProblemSolving_CPP/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/andro/source/repos/Andrew-A-A/ProblemSolving/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/andro/source/repos/Andrew-A-A/ProblemSolving_CPP/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

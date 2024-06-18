@@ -1,25 +1,28 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Reverse Linked List.cpp"
+#include "Problems_Sol_Functions/Add Two Numbers.cpp"
 using namespace std;
 
 
 int main() {
     Solution sol;
-    ListNode* list1 = new ListNode(1);
-    ListNode* n11 = new ListNode(2);
-    ListNode* n12 = new ListNode(3);
-    ListNode* n13 = new ListNode(4);
-    ListNode* n14 = new ListNode(5);
-    ListNode* n15 = new ListNode(6);
-    list1->next = n11;
-    n11->next = n12;
-    n12->next = n13;
-    n13->next = n14;
-    n14->next = n15;
+    ListNode* n0 = new ListNode(2);
+    ListNode* n1 = new ListNode(4);
+    ListNode* n2 = new ListNode(9);
+    n0->next = n1;
+    n1->next = n2;
+
+
+    ListNode* l0 = new ListNode(5);
+    ListNode* l1 = new ListNode(6);
+    ListNode* l2 = new ListNode(4);
+    ListNode* l3 = new ListNode(9);
+    l0->next = l1;
+    l1->next = l2;
+    l2->next = l3;
 
 
     
-    ListNode* ans= sol.reverseList(list1);
+    ListNode* ans = sol.addTwoNumbers(n0, l0);
 
     while (ans!=nullptr) {
         cout << ans->val<<endl;

@@ -1,19 +1,15 @@
 #include <iostream>
-#include "Problems_Sol_Functions/Merge Sorted Array.cpp"
+#include "Problems_Sol_Functions/Remove Element.cpp"
 using namespace std;
 
 
 int main() {
     Solution sol =  Solution();
-    vector<int> v1 = {1,2,3,0,0,0};
-    vector<int> v2 = {2,5,6};
-    std::vector<int> ans = sol.merge(v1,3,v2,3);
-
-    for each (int var in ans)
-    {
-        cout << var << endl;
-    }
-
+    vector<int> v1 = {0,1,2,2,3,0,4,2};
+  
+    int ans = sol.removeElement(v1,2);
+    cout << ans;
+  
   
     return 0;
 }
